@@ -6,6 +6,7 @@ import jokerLogo from './img/joker-logo.png';
 import walletIcon from './img/wallet.png';
 import maticIcon from './img/polygon.png';
 import jokerChip from './img/joker-token.png';
+import MainButton from './components/MainButton';
 
 function App() {
   return (
@@ -71,10 +72,7 @@ function App() {
                 </div>
               </div>
             </div>
-
-            <button className="main__button main__button--big">
-              Connect Wallet
-            </button>
+            <MainButton />
           </div>
         </section>
       </div>

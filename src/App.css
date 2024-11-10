@@ -1,7 +1,8 @@
-body {
+.App {
   background-color: #1A1A1A;
   color: white;
-  background: url("../img/bg.jpg");
+  background-image: url("./img/bg.jpg");
+  min-width: 100%;
 }
 
 .header {
@@ -40,7 +41,8 @@ body {
 }
 
 .header__wallet {
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
   gap: 10px;
 }
@@ -100,6 +102,7 @@ body {
 }
 
 .main__discription {
+  display: none;
   margin-bottom: 25px;
   text-align: center;
   width: 80%;
@@ -108,7 +111,8 @@ body {
 
 .main__info {
   margin-bottom: 20px;
-  display: flex;
+  display: none;
+  /* display: flex; */
   align-items: center;
   gap: 20px;
   justify-content: center;

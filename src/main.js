@@ -1,0 +1,1 @@
+let mainButton = document.getElementById('mainButton');
